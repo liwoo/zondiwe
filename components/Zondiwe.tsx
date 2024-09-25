@@ -11,7 +11,16 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 
-const songs = {
+interface Song {
+  number: number;
+  title: string;
+  language: string;
+  lyrics: string;
+}
+
+type Languages = "kinyarwanda" | "chewa" | "tumbuka" | "english";
+
+const songs: Record<Languages, Song[]> = {
   kinyarwanda: [
     {
       number: 1,
@@ -35,9 +44,9 @@ const songs = {
     },
     {
       number: 2,
-      title: "Yesu Ndiye M'busa",
+      title: "Yesu Ndiye M&apos;busa",
       language: "Chewa",
-      lyrics: "Yesu ndiye m'busa wabwino...\n(Rest of the lyrics)",
+      lyrics: "Yesu ndiye m&apos;busa wabwino...\n(Rest of the lyrics)",
     },
   ],
   tumbuka: [
@@ -70,14 +79,20 @@ const songs = {
   ],
 };
 
-const languageFlags = {
+const languageFlags: Record<Languages, string> = {
   kinyarwanda: "🇷🇼", // Rwanda flag
   chewa: "🇲🇼", // Malawi flag (Chewa is spoken in Malawi)
   tumbuka: "🇲🇼", // Malawi flag (Tumbuka is also spoken in Malawi)
   english: "🇬🇧", // UK flag for English
 };
 
-const LyricsModal = ({ song, isOpen, onClose }) => (
+interface LyricsModalProps {
+  song: Song;
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+const LyricsModal: React.FC<LyricsModalProps> = ({ song, isOpen, onClose }) => (
   <Dialog open={isOpen} onOpenChange={onClose}>
     <DialogContent className="sm:max-w-[425px]">
       <DialogHeader>
@@ -92,12 +107,13 @@ const LyricsModal = ({ song, isOpen, onClose }) => (
   </Dialog>
 );
 
-const SongSheet = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState("kinyarwanda");
-  const [selectedSong, setSelectedSong] = useState(null);
+const SongSheet: React.FC = () => {
+  const [selectedLanguage, setSelectedLanguage] =
+    useState<Languages>("kinyarwanda");
+  const [selectedSong, setSelectedSong] = useState<Song | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const openLyrics = (song) => {
+  const openLyrics = (song: Song) => {
     setSelectedSong(song);
     setIsModalOpen(true);
   };
@@ -106,7 +122,9 @@ const SongSheet = () => {
     <div className="p-4">
       <Tabs
         value={selectedLanguage}
-        onValueChange={setSelectedLanguage}
+        onValueChange={(value: string) =>
+          setSelectedLanguage(value as Languages)
+        }
         className="w-full mb-4"
       >
         <TabsList className="grid w-full grid-cols-4">
@@ -144,8 +162,10 @@ const SongSheet = () => {
   );
 };
 
-const ZondiweFuneralWebsite = () => {
-  const [activeTab, setActiveTab] = useState("bio");
+const ZondiweFuneralWebsite: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<"bio" | "songsheet" | "program">(
+    "bio"
+  );
 
   const renderContent = () => {
     switch (activeTab) {
@@ -180,7 +200,9 @@ const ZondiweFuneralWebsite = () => {
 
   return (
     <div className="max-w-md mx-auto">
-      <h1 className="text-2xl font-bold text-center my-4">Zondiwe's Funeral</h1>
+      <h1 className="text-2xl font-bold text-center my-4">
+        Zondiwe&apos;s Funeral
+      </h1>
       <div className="flex justify-around mb-4">
         <button
           className={`px-4 py-2 font-semibold ${

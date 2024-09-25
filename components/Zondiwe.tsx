@@ -18,7 +18,7 @@ interface Song {
   lyrics: string;
 }
 
-type Languages = "kinyarwanda" | "chewa" | "tumbuka" | "english";
+type Languages = "kinyarwanda" | "chewa" | "english";
 
 const songs: Record<Languages, Song[]> = {
   kinyarwanda: [
@@ -49,32 +49,98 @@ const songs: Record<Languages, Song[]> = {
       lyrics: "Yesu ndiye m&apos;busa wabwino...\n(Rest of the lyrics)",
     },
   ],
-  tumbuka: [
-    {
-      number: 1,
-      title: "Chiuta Withu",
-      language: "Tumbuka",
-      lyrics: "Chiuta withu ndi muweme...\n(Rest of the lyrics)",
-    },
-    {
-      number: 2,
-      title: "Yesu Ndi Mliska",
-      language: "Tumbuka",
-      lyrics: "Yesu ndi mliska muweme...\n(Rest of the lyrics)",
-    },
-  ],
   english: [
     {
       number: 1,
-      title: "Our God",
+      title: "Rock of Ages",
       language: "English",
-      lyrics: "Our God is good...\n(Rest of the lyrics)",
+      lyrics: `
+      Rock of Ages, cleft for me,
+      Let me hide myself in Thee;
+      Let the water and the blood,
+      From Thy riven side which flowed,
+      Be of sin the double cure,
+      Save me from its guilt and power.
+
+      Not the labor of my hands
+      Can fulfill Thy law’s demands;
+      Could my zeal no respite know,
+      Could my tears forever flow,
+      All could never sin erase,
+      Thou must save, and save by grace.
+
+      Nothing in my hands I bring,
+      Simply to Thy cross I cling;
+      Naked, come to Thee for dress,
+      Helpless, look to Thee for grace:
+      Foul, I to the fountain fly,
+      Wash me, Savior, or I die.
+
+      While I draw this fleeting breath,
+      When mine eyes shall close in death,
+      When I soar to worlds unknown,
+      See Thee on Thy judgment throne,
+      Rock of Ages, cleft for me,
+      Let me hide myself in Thee.`,
     },
     {
       number: 2,
-      title: "Jesus is the Shepherd",
+      title: "Blessed Assurance",
       language: "English",
-      lyrics: "Jesus is the good shepherd...\n(Rest of the lyrics)",
+      lyrics: `
+      Blessed assurance, Jesus is mine;
+      Oh, what a foretaste of glory divine!
+      Heir of salvation, purchase of God,
+      Born of His Spirit, washed in His blood.
+
+      Chorus
+      This is my story, this is my song,
+      Praising my Savior all the day long.
+      This is my story, this is my song,
+        Praising my Savior all the day long.
+
+      Perfect submission, perfect delight,
+      Visions of rapture now burst on my sight;
+      Angels descending, bring from above
+      Echoes of mercy, whispers of love.
+
+      Perfect submission, all is at rest,
+      I in my Savior am happy and blest;
+      Watching and waiting, looking above,
+      Filled with His goodness, lost in His love.
+      `,
+    },
+    {
+      number: 3,
+      title: "Jesus Paid it All",
+      language: "English",
+      lyrics: `
+      1 I hear the Savior say,
+      "Thy strength indeed is small,
+      Child of weakness, watch and pray,
+      Find in Me thine all in all."
+
+      Refrain:
+      Jesus paid it all,
+      All to Him I owe;
+      Sin had left a crimson stain,
+      He washed it white as snow.
+
+      2 Lord, now indeed I find
+      Thy pow'r and Thine alone,
+      Can change the leper's spots
+      And melt the heart of stone. [Refrain]
+
+      3 For nothing good have I
+      Where-by Thy grace to claim;
+      I'll wash my garments white
+      In the blood of Calv'ry's Lamb. [Refrain]
+
+      4 And when, before the throne,
+      I stand in Him complete,
+      "Jesus died my soul to save,"
+      My lips shall still repeat. [Refrain]
+      `,
     },
   ],
 };
@@ -82,7 +148,6 @@ const songs: Record<Languages, Song[]> = {
 const languageFlags: Record<Languages, string> = {
   kinyarwanda: "🇷🇼", // Rwanda flag
   chewa: "🇲🇼", // Malawi flag (Chewa is spoken in Malawi)
-  tumbuka: "🇲🇼", // Malawi flag (Tumbuka is also spoken in Malawi)
   english: "🇬🇧", // UK flag for English
 };
 

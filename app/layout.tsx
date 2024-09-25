@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 
 export const metadata: Metadata = {
   title: "Zondiwe&apos;s Funeral Website",
-  description: "In memory of Zondiwe",
+  description: "In memory of our beloved brother Zondiwe Phiri",
 };
 
 interface RootLayoutProps {

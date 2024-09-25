@@ -329,7 +329,7 @@ const SongSheet: React.FC = () => {
         }
         className="w-full mb-4"
       >
-        <TabsList className="grid w-full grid-cols-4">
+        <TabsList className="grid w-full grid-cols-3">
           {Object.entries(languageFlags).map(([lang, flag]) => (
             <TabsTrigger key={lang} value={lang}>
               <span className="mr-2">{flag}</span>

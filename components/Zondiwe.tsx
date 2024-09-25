@@ -37,16 +37,114 @@ const songs: Record<Languages, Song[]> = {
   ],
   chewa: [
     {
-      number: 1,
-      title: "Mulungu Wathu",
+      number: 102,
+      title: "Tanthwe Longambika",
       language: "Chewa",
-      lyrics: "Mulungu wathu ndi wabwino...\n(Rest of the lyrics)",
+      lyrics: `
+      1 Thanthwe long'ambikatu,
+      Ndibisale momwemu!
+      Madzi ndipo mwaziwo
+      Zotuluka m'nthitimo
+      Zonditsuke m'mtima mbuu!
+      Zindilimbikitsetu.
+
+      2 Ntchito zanga zonsezo
+      Sizikondweretsa 'Nu;
+      Ndikazigwiritsadi,
+      Ndikalira nsonizi,
+      Zonse sizikwanazi,
+      Koma Yesu yekhayo.
+
+      3 M'manja mopanda kanthu,
+      Mtanda ndingogwiradi;
+      'Maliseche mbveke 'ne;
+      Ndili ndekha, msunge 'ne;
+      Ndithawire m'mtsinjewo
+      Munditsuke m'mtimamo.
+
+      4 M'moyo uno kunsiku
+      Pena ndimwaliratu,
+      M'mene ndidzakwerako
+      Tionane masowo;
+      Thanthwe long'ambikatu
+      Ndibisale momwemu.
+      `,
     },
     {
-      number: 2,
-      title: "Yesu Ndiye M&apos;busa",
+      number: 191,
+      title: "Ntchito yonse yakeyo",
       language: "Chewa",
-      lyrics: "Yesu ndiye m&apos;busa wabwino...\n(Rest of the lyrics)",
+      lyrics: `
+      1 Ntchito yonse yakeyo
+      Yatha m'dziko linoli;
+      Mlendo wafikatuko
+      Pokocheza leroli.
+
+      Chorus
+      'Tate, mwa kusunga kwanu
+      Timusiya mwana wanu.
+      'Tate, mwa kusunga kwanu
+      Timusiya mwana wanu.
+
+      2 Yatha misoziyo,
+      Zobisika zonse mbee!
+      Aweruza bwinoko
+      Ndiye Wolungamayo.
+
+      3 Komwe Mbusa kwawoko
+      Atengera nkhosa zonse,
+      Zake asungiramo
+      Zosaopa kanthu konse.
+
+      4 Onse akulapawo
+      Ayang'ana mtanda wake;
+      Aphunzira komweko
+      Zonse za kukonda kwake.
+
+      5 Dothili kudothilo,
+      Pfumbili kupfumbi tere;
+      Mpaka adzadzukanso
+      Timusiya mumtendere.
+      `,
+    },
+    {
+      number: 193,
+      title: "Ntchito yonse yakeyo",
+      language: "Chewa",
+      lyrics: `
+      1 Kwathu sipadziko, ndingopitirira,
+      Ndadzikundikira chuma
+      Kumwambako;
+      Mngelo akodola pakhomo la
+      m'mwamba;
+      Ndipo dziko lapansi sindyesa
+      kwathu.
+
+      Mbuye ndinu bwenzi langa ndithu,
+      Ndichitenji ngati Kumwamba
+      sikwathu?
+      Mngelo akodola pakhomo la
+      m'Mwamba,
+      Ndipo dziko lapansi sindiyesa
+      kwathu.
+
+      2 Andiyembekeza, chinthuchi
+      ndidziwa,
+      Mpulumutsi wanga wandikhulukira;
+      Adzandipyoletsa pamene ndafoka;
+      Ndipo dziko lapansi sindiyesa kwathu
+
+      3 Mayi watsogola ku Ulemerero,
+      Ndifuna kugwira dzanja lake konko,
+      Andidikiranso pakhomo la'Mwamba;
+      Ndipo dziko lapansi sindiyesa kwathu.
+
+      4 Mu ulemerero tidzakhala m'yaya,
+      Oyera mtimawo ali kulamira;
+      Ati, "Aleluya kwa Mlungu Wamphamvu"
+      Ndipo dziko lapansi sindiyesa
+      kwathu.
+      `,
     },
   ],
   english: [

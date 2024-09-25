@@ -23,16 +23,55 @@ type Languages = "kinyarwanda" | "chewa" | "english";
 const songs: Record<Languages, Song[]> = {
   kinyarwanda: [
     {
-      number: 1,
-      title: "Imana Yacu",
+      number: 133,
+      title: "Nyemerera ngendane nawe",
       language: "Kinyarwanda",
-      lyrics: "Imana yacu ni nziza...\n(Rest of the lyrics)",
+      lyrics: `
+      1
+      Nyemerera ngendane nawe, Mana, nk’ukw Enoki yagenje.
+      Nyoboresh’ ukuboko kwawe, unyerekez’ ah’ ushaka hose.
+      Nubw’ inzir’ itagaragara, nkomeze njyane nawe, Mwami.
+
+      2
+      Nta bwo nahangara kugenda ntari kumwe nawe, Mukiza;
+      Nagoswe n’abanz’ igihumbi; dor’ imitegw intaye hagati.
+      Burije rwose, ntihabona; nkomeze njyane nawe, Mwami.
+
+      3
+      Ni nguma mu maboko yawe, sinzaba ncyitaye ku by’ isi;
+      Nta kindi nziratana rwose. keretse wa musaraba wawe,
+      Ngez’ ubwo nzager’ i Sioni; nkomeze njyane nawe, Mwami.
+      `,
     },
     {
-      number: 2,
-      title: "Yesu Ni Umwungeri",
+      number: 1,
+      title: "Ur’ Uwer’ Uwera, Mwami Mana yacu",
       language: "Kinyarwanda",
-      lyrics: "Yesu ni umwungeri mwiza...\n(Rest of the lyrics)",
+      lyrics: `
+      1
+      Ur’ Uwer’ Uwera, Mwami Mana yacu,
+      Kare mugitondo tukuririmbire:
+      Ur’ umunyambarag’ ur’ umunyebambe;
+      Ur’ ubutat’ uri n’ Iman’ imwe
+
+      2
+      Ur’ Uwer’ Uwera; dor’ abera bose,
+      Baguhimbazanya n’ abamalayika,
+      Tukuramye, Mwami, wahozeho kera,
+      Kand’ uriho, kand’ uzahoraho
+
+      3
+      Ur’ Uwer’ Uwera, kand’ ubgiza bgawe
+      Burut’ uko bgarebga n’ abacumuye,
+      Ni wowe wenyine wer’ urusha bose
+      Ubuntu no gutungana kose
+
+      4
+      Ur’ Uwer’ Uwera, Mwami Mana yacu,
+      Ibyaremwe byose biragusingiza:
+      Ur’ umunyambarag’ ur’ umunyebambe;
+      Ingoma yawe ntizahanguka
+      `,
     },
   ],
   chewa: [

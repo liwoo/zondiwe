@@ -147,8 +147,8 @@ const songs: Record<Languages, Song[]> = {
       `,
     },
     {
-      number: 193,
-      title: "Ntchito yonse yakeyo",
+      number: 371,
+      title: "Kwathu Sipadziko",
       language: "Chewa",
       lyrics: `
       1 Kwathu sipadziko, ndingopitirira,

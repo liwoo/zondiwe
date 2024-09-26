@@ -468,19 +468,21 @@ const SongSheet: React.FC = () => {
         </TabsList>
       </Tabs>
       <ScrollArea className="h-[70vh] w-full rounded-md border p-4">
-        {songs[selectedLanguage].map((song) => (
-          <Card
-            key={song.number}
-            className="mb-2 cursor-pointer"
-            onClick={() => openLyrics(song)}
-          >
-            <CardHeader>
-              <CardTitle>
-                {song.number}. {song.title}
-              </CardTitle>
-            </CardHeader>
-          </Card>
-        ))}
+        {songs[selectedLanguage]
+          .sort((a, b) => a.number - b.number)
+          .map((song) => (
+            <Card
+              key={song.number}
+              className="mb-2 cursor-pointer"
+              onClick={() => openLyrics(song)}
+            >
+              <CardHeader>
+                <CardTitle>
+                  {song.number}. {song.title}
+                </CardTitle>
+              </CardHeader>
+            </Card>
+          ))}
       </ScrollArea>
       {selectedSong && (
         <LyricsModal

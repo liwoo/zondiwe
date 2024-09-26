@@ -28,19 +28,63 @@ const songs: Record<Languages, Song[]> = {
       language: "Kinyarwanda",
       lyrics: `
       1
-      Nyemerera ngendane nawe, Mana, nk’ukw Enoki yagenje.
-      Nyoboresh’ ukuboko kwawe, unyerekez’ ah’ ushaka hose.
-      Nubw’ inzir’ itagaragara, nkomeze njyane nawe, Mwami.
+      Nyemerera ngendane nawe,
+      Mana, nk’ukw Enoki yagenje.
+      Nyoboresh’ ukuboko kwawe,
+      unyerekez’ ah’ ushaka hose.
+      Nubw’ inzir’ itagaragara,
+      nkomeze njyane nawe, Mwami.
 
       2
-      Nta bwo nahangara kugenda ntari kumwe nawe, Mukiza;
-      Nagoswe n’abanz’ igihumbi; dor’ imitegw intaye hagati.
-      Burije rwose, ntihabona; nkomeze njyane nawe, Mwami.
+      Nta bwo nahangara kugenda
+      ntari kumwe nawe, Mukiza;
+      Nagoswe n’abanz’ igihumbi;
+      dor’ imitegw intaye hagati.
+      Burije rwose, ntihabona;
+      nkomeze njyane nawe, Mwami.
 
       3
-      Ni nguma mu maboko yawe, sinzaba ncyitaye ku by’ isi;
-      Nta kindi nziratana rwose. keretse wa musaraba wawe,
-      Ngez’ ubwo nzager’ i Sioni; nkomeze njyane nawe, Mwami.
+      Ni nguma mu maboko yawe,
+      sinzaba ncyitaye ku by’ isi;
+      Nta kindi nziratana rwose.
+      keretse wa musaraba wawe,
+      Ngez’ ubwo nzager’ i Sioni;
+      nkomeze njyane nawe, Mwami.
+      `,
+    },
+    {
+      number: 200,
+      title: "Ur’ Uwera Wera, Man’ ikomeye",
+      language: "Kinyarwanda",
+      lyrics: `
+      1
+      Ur’ Uwera Wera,
+      Man’ ikomeye !
+      Mu gitondo tu
+      jye tukuririmbira.
+      Nubw’ ukomey’ u te,
+      ugir’ imbabazi;
+      I ngoma ya we
+      nti za hanguka.
+      2
+      Ur’ Uwera Wera,
+      abera bose
+      Baguhimbazanya
+      n’abamaraika!
+      Ibyaremwe byose
+      bikuramye, Mwami,
+      Wahozeho,
+      kand’ Uzahoraho.
+
+      3
+      Ur’ Uwera Wera,
+      ubwiza bwawe,
+      Nubwo butarebwa
+      n’inkozi z’ibibi,
+      Uhor’ ur Uwera,
+      nta wundi mwahwana,
+      Kukira neza,
+      no gutungana.
       `,
     },
     {
@@ -49,28 +93,77 @@ const songs: Record<Languages, Song[]> = {
       language: "Kinyarwanda",
       lyrics: `
       1
-      Ur’ Uwer’ Uwera, Mwami Mana yacu,
-      Kare mugitondo tukuririmbire:
-      Ur’ umunyambarag’ ur’ umunyebambe;
-      Ur’ ubutat’ uri n’ Iman’ imwe
+      Ur’ Uwer’ Uwera,
+      Mwami Mana yacu,
+      Kare mugitondo
+      tukuririmbire:
+      Ur’ umunyambarag’
+      ur’ umunyebambe;
+      Ur’ ubutat’ uri
+      n’ Iman’ imwe
 
       2
-      Ur’ Uwer’ Uwera; dor’ abera bose,
-      Baguhimbazanya n’ abamalayika,
-      Tukuramye, Mwami, wahozeho kera,
-      Kand’ uriho, kand’ uzahoraho
+      Ur’ Uwer’ Uwera;
+      dor’ abera bose,
+      Baguhimbazanya
+      n’ abamalayika,
+      Tukuramye, Mwami, w
+      ahozeho kera,
+      Kand’ uriho,
+      kand’ uzahoraho
 
       3
-      Ur’ Uwer’ Uwera, kand’ ubgiza bgawe
-      Burut’ uko bgarebga n’ abacumuye,
-      Ni wowe wenyine wer’ urusha bose
+      Ur’ Uwer’ Uwera,
+      kand’ ubgiza bgawe
+      Burut’ uko bgarebga
+      n’ abacumuye,
+      Ni wowe wenyine
+      wer’ urusha bose
       Ubuntu no gutungana kose
 
       4
-      Ur’ Uwer’ Uwera, Mwami Mana yacu,
-      Ibyaremwe byose biragusingiza:
-      Ur’ umunyambarag’ ur’ umunyebambe;
-      Ingoma yawe ntizahanguka
+      Ur’ Uwer’ Uwera,
+      Mwami Mana yacu,
+      Ibyaremwe byose
+      biragusingiza:
+      Ur’ umunyambarag’
+      ur’ umunyebambe;
+      Ingoma yawe
+      ntizahanguka
+      `,
+    },
+    {
+      number: 15,
+      title: "Urukundo rwa Yesu",
+      language: "Kinyarwanda",
+      lyrics: `
+      1
+      Urukundo rwa Yesu,
+      Rwageze kuri twebwe;
+      Rudukuraho rwose,
+      Urubanza rwo gupfa.
+
+      Gusubiramo
+      Aradukunda, aradukunda,
+      Aradukunda, Yesu Mutabazi.
+
+      2
+      Abatari bahabwa,
+      Ubugingo bw’ iteka,
+      Twihute tubabwire,
+      Urukundo rwa Yesu.
+
+      3
+      Kuko yaradukunze,
+      Yadupfiriye twese,
+      Natwe dukunde dutyo,
+      Abakiri mu byaha.
+
+      4
+      Aho Yes’ azazira,
+      Aje kwim’ ingoma ye,
+      Ni bwo tuzumv’ ijwi rye,
+      Ati: Mwakoze neza.
       `,
     },
   ],

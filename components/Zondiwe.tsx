@@ -185,6 +185,40 @@ const songs: Record<Languages, Song[]> = {
       kwathu.
       `,
     },
+    {
+      title: "Chitha nchiani kund'yeretsa",
+      number: 114,
+      language: "chewa",
+      lyrics: `
+      1 Chitha nchiani kund'yeretsa?
+      Mwazi wa Ambuye Yesu;
+      Nchiani chindipulumutsa?
+      Mwazi wa Ambuye Yesu.
+
+      Chorus
+      Chitsime ndi chokoma
+      Chindiyeretsa bwino;
+      Chinanso sindifuna,
+      Mwazi wa Ambuye ndiwo.
+
+      2 Mtanda m'mtima ndiyang'na,
+      Mundisunge nthawi zonse
+      Mwazi wa Ambuye Yesu;
+      Ndi chikondi chomwechi.
+      Ndikhululukidwa nawo
+      Mwazi wa Ambuye Yesu.
+
+      3 Zonse zina sizikwana,
+      Mwazi wa Ambuye ndiwo;
+      Ntchito zanga sinditama,
+      Mwazi wa Ambuye ndiwo.
+
+      4 Ndikhulupirira bwino
+      Mwazi wa Ambuye Yesu;
+      Chilungamo change ndicho
+      Mwazi wa Ambuye Yesu.
+      `,
+    },
   ],
   english: [
     {

@@ -151,38 +151,51 @@ const songs: Record<Languages, Song[]> = {
       title: "Kwathu Sipadziko",
       language: "Chewa",
       lyrics: `
-      1 Kwathu sipadziko, ndingopitirira,
-      Ndadzikundikira chuma
-      Kumwambako;
-      Mngelo akodola pakhomo la
-      m'mwamba;
-      Ndipo dziko lapansi sindyesa
-      kwathu.
+      1 Kwathu sipadziko,
+      ndingopitirira,
+      Ndadzikundikira
+      chuma Kumwambako;
+      Mngelo akodola
+      pakhomo la m'mwamba;
+      Ndipo dziko lapansi
+      sindyesa kwathu.
 
-      Mbuye ndinu bwenzi langa ndithu,
-      Ndichitenji ngati Kumwamba
-      sikwathu?
-      Mngelo akodola pakhomo la
-      m'Mwamba,
-      Ndipo dziko lapansi sindiyesa
-      kwathu.
+      Chorus
+      Mbuye ndinu
+      bwenzi langa ndithu,
+      Ndichitenji ngati
+      Kumwamba sikwathu?
+      Mngelo akodola
+      pakhomo la m'Mwamba,
+      Ndipo dziko lapansi
+      sindiyesa kwathu.
 
-      2 Andiyembekeza, chinthuchi
-      ndidziwa,
-      Mpulumutsi wanga wandikhulukira;
-      Adzandipyoletsa pamene ndafoka;
-      Ndipo dziko lapansi sindiyesa kwathu
+      2 Andiyembekeza,
+      chinthuchi ndidziwa,
+      Mpulumutsi wanga
+      wandikhulukira;
+      Adzandipyoletsa
+      pamene ndafoka;
+      Ndipo dziko lapansi
+      sindiyesa kwathu
 
-      3 Mayi watsogola ku Ulemerero,
-      Ndifuna kugwira dzanja lake konko,
-      Andidikiranso pakhomo la'Mwamba;
-      Ndipo dziko lapansi sindiyesa kwathu.
+      3 Mayi watsogola
+      ku Ulemerero,
+      Ndifuna kugwira
+      dzanja lake konko,
+      Andidikiranso
+      pakhomo la'Mwamba;
+      Ndipo dziko lapansi
+      sindiyesa kwathu.
 
-      4 Mu ulemerero tidzakhala m'yaya,
-      Oyera mtimawo ali kulamira;
-      Ati, "Aleluya kwa Mlungu Wamphamvu"
-      Ndipo dziko lapansi sindiyesa
-      kwathu.
+      4 Mu ulemerero
+      tidzakhala m'yaya,
+      Oyera mtimawo
+      ali kulamira;
+      Ati, "Aleluya
+      kwa Mlungu Wamphamvu"
+      Ndipo dziko
+      lapansi sindiyesa kwathu.
       `,
     },
     {

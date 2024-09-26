@@ -550,6 +550,72 @@ const songs: Record<Languages, Song[]> = {
       My lips shall still repeat. [Refrain]
       `,
     },
+    {
+      number: 199,
+      title: "What a Friend we have in Jesus",
+      language: "English",
+      lyrics: `
+      1 What a Friend we have in Jesus
+      All our sins and grief to bear!
+      What a privilege to carry
+      Everything to God in prayer!
+      O what peace we often forfeit;
+      O what needless pain we bear;
+      All because we do not carry
+      Everything to God in prayer.
+
+      2 Have we trials and temptations?
+      Is there trouble anywhere?
+      We should never be discouraged;
+      Take it to the Lord in prayer,
+      Can we find a friend so faithful,
+      Who will all our sorrows share?
+      Jesus knows our every weakness;
+      Take it to the Lord in prayer.
+
+      3 Are we weak and heavy-laden,
+      Cumbered with a load of care?
+      Precious Savior, still our refuge__
+      Take it to the Lord in prayer.
+      Do thy friends despise, forsake thee?
+      Take it to the Lord in prayer;
+      In His arms He’ll take and shield thee,
+      Thou wilt find a solace there.
+      `,
+    },
+    {
+      number: 362,
+      title: "My hope is built on nothing less",
+      language: "English",
+      lyrics: `
+      1 My hope is built on nothing less
+      Than Jesu’s blood and righteousness;
+      I date not trust the sweetest frame,
+      But wholly lean on Jesu’s name.
+
+      Chorus
+      On Christ, the Solid Rock, I stand;
+      All other ground is sinking sand,
+      All other ground is sinking sand.
+
+      2 When darkness seems to veil His
+      face,
+      I rest on His unchanging grace;
+      In every high and stormy gale
+      My anchor holds within the veil.
+
+      3 His oath, His covenant, His blood,
+      Support me in the ‘whelming flood;
+      When all around my soul gives way,
+      He then is all my hope and stay.
+
+      4 When He shall come with trumpet
+      sound,
+      O may I then in Him be found,
+      Clothed in His righteousness alone,
+      Faultless to stand before His throne.
+      `,
+    },
   ],
 };
 

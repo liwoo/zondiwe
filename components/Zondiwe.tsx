@@ -219,6 +219,69 @@ const songs: Record<Languages, Song[]> = {
       Mwazi wa Ambuye Yesu.
       `,
     },
+    {
+      title: "Pokhala Mtendere",
+      number: 158,
+      language: "chewa",
+      lyrics: `
+      Pokhala mtendere mu mtimangamu,
+      Pamene ndisaukanso,
+      Pamene mavuto ndi akuludi,
+      Moyo wangawu ngwabwinotu.
+
+      Moyowo
+      Ngwabwino,
+      Moyo wanga ulitu bwino.
+
+      2 Ngakhale Satana andizunza 'ne,
+      Chilipo chitonthozacho;
+      Chifundo cha Kristu anafera 'ne,
+      Kundipatsa 'ne moyo wake.
+
+      3 Uchimo unapachikidwa pomwe
+      Pamtanda wa Yesu Mbuye;
+      Machimo angawo anatherapo;
+      Mbuye wanga, ndiyamika 'Nu.
+
+      4 Ambuyathu, ndikhumba tsiku lija
+      Limene ndidzaona 'Nu;
+      Lipenga limveke, ndidzakondwatu
+      Pakukomana ndi Yesuyo.
+      `,
+    },
+    {
+      title: "Senzani Mtanda Wanuwo",
+      number: 31,
+      language: "chewa",
+      lyrics: `
+      1 "Senzani mtanda wanuwu."
+      Atero Yesu Mbuyathu;
+      "Mukanditsata Inetu,
+      Mudzikanize nokhanu."
+      Aleluya, ndiye Yesu.
+
+      2 "Sezani mtanda wanuwu."
+      Musaopsedwe nawotu;
+      Mphamvu za Yesu nzanunso;
+      Limbani mtima wanuwo.
+      Aleluya, ndiye Yesu.
+
+      3 Senzani mtanda wanuwu."
+      Bwanji manyazi mumva 'nu?
+      Yesu anapiriratu,
+      Kuti mupulumuketu.
+
+      4 "Senzani mtanda wanuwu."
+      Nawo muyende chetetu,
+      Mutsogoledwe nawonso
+      Kwanu Kumwamba komweko.
+
+      5 "Senzani mtanda wanuwo."
+      Tsatani Yesu m'njiramu;
+      Iye wakusalemayo
+      Ndiye alandiridwadi.
+      `,
+    },
   ],
   english: [
     {

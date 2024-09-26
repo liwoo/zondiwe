@@ -23,6 +23,42 @@ type Languages = "kinyarwanda" | "chewa" | "english";
 const songs: Record<Languages, Song[]> = {
   kinyarwanda: [
     {
+      number: 100,
+      title: "Nta nshuti nziza nka Yesu",
+      language: "Kinyarwanda",
+      lyrics: `
+      1
+      Nta nshuti nziza nka Yesu,
+      Atsemb’ ibyaha byacu.
+      N’amahirwe kumwizera,
+      Kukw atwuzuza na Se.
+      Iyo tubabaye rwose,
+      Dufit’ ishavu ryinshi,
+      Adusohoza ku Mana,
+      Yumv’ amaganya yacu.
+
+      2
+      Ni tugir’ ibyago byinshi,
+      Tugatotezwa cyane,
+      Byoye kuduter’ ubwoba,
+      Tumwiringire rwose;
+      Nta wundi wabidukiza,
+      Abiduhemuraho.
+      Yes’ az’ intege nke zacu,
+      Jya wisung’ Uwiteka.
+
+      3
+      Ni tugir’ ishavu ryinshi,
+      Tukababara rwose,
+      Yesu ni w’ uturokora;
+      Komez’ umwizigire.
+      Ni bakugira ruvumwa,
+      Wisung’ Umwami Yesu.
+      Ntazagir’ ubw’ aguhana,
+      Jy’ uhor’ umwizigiye.
+      `,
+    },
+    {
       number: 133,
       title: "Nyemerera ngendane nawe",
       language: "Kinyarwanda",

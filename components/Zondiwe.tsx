@@ -282,6 +282,38 @@ const songs: Record<Languages, Song[]> = {
       Ndiye alandiridwadi.
       `,
     },
+    {
+      title: "Sing'anga 'mkulu ndiye Yesu",
+      number: 83,
+      language: "chewa",
+      lyrics: `
+      1 Sing'anga 'mkulu ndiye Yesu,
+      Mwana wa Mulungu;
+      Asangalatsa achisoni,
+      Ali wachifundo.
+
+      Chorus
+      Dzina la Yesu ndi lokoma,
+      Dzina la Yesu lipambana,
+      Dzina lake lakukonda,
+      Yesu, inde Yesu.
+
+      2 Zoipa zakhululukidwa,
+      Yesu amatero;
+      Tiyende bwino m'njira yake,
+      Tilowemo lero.
+
+      3 Nditama Nsembe ya Mulungu,
+      Ndilandira Yesu;
+      Ndikonda dzinalo labwino,
+      Dzina lanu, Yesu.
+
+      4 Akulu inu m'bwere nonse,
+      Ana inu nomwe,
+      Ambuye akuitanani,
+      Bvomerani nonse.
+      `,
+    },
   ],
   english: [
     {

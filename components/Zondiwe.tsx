@@ -10,6 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { ChevronRight } from "lucide-react";
 import { Languages, Song, songs } from "@/data/songs";
 import Bio from "./Bio";
 
@@ -42,6 +43,24 @@ const LyricsModal: React.FC<LyricsModalProps> = ({ song, isOpen, onClose }) => (
   </Dialog>
 );
 
+const SongListItem: React.FC<{ song: Song; onClick: () => void }> = ({
+  song,
+  onClick,
+}) => (
+  <div
+    className="flex items-center justify-between p-3 mb-2 bg-[#FFF8DC] border border-[#D4AF37] rounded-lg cursor-pointer hover:bg-[#FFE4B5] transition-colors duration-200"
+    onClick={onClick}
+  >
+    <div className="flex-1">
+      <div className="text-sm text-[#8B4513] font-serif">{song.number}</div>
+      <div className="text-[#5D4037] font-serif font-semibold">
+        {song.title}
+      </div>
+    </div>
+    <ChevronRight className="text-[#D4AF37]" size={20} />
+  </div>
+);
+
 const SongSheet: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState<Languages>("rwanda");
   const [selectedSong, setSelectedSong] = useState<Song | null>(null);
@@ -53,7 +72,7 @@ const SongSheet: React.FC = () => {
   };
 
   return (
-    <div className="p-4 bg-[#FDF8E7] border-2 border-[#D4AF37] rounded-lg">
+    <div>
       <Tabs
         value={selectedLanguage}
         onValueChange={(value: string) =>
@@ -74,21 +93,15 @@ const SongSheet: React.FC = () => {
           ))}
         </TabsList>
       </Tabs>
-      <ScrollArea className="h-[50vh] w-full rounded-md border-2 border-[#D4AF37] p-4">
+      <ScrollArea className="w-full rounded-md border-2 border-[#D4AF37] p-4">
         {songs[selectedLanguage]
           .sort((a, b) => a.number - b.number)
           .map((song) => (
-            <Card
+            <SongListItem
               key={song.number}
-              className="mb-2 cursor-pointer bg-[#FFF8DC] border-[#D4AF37]"
+              song={song}
               onClick={() => openLyrics(song)}
-            >
-              <CardHeader>
-                <CardTitle className="text-[#8B4513] font-serif">
-                  {song.number}. {song.title}
-                </CardTitle>
-              </CardHeader>
-            </Card>
+            />
           ))}
       </ScrollArea>
       {selectedSong && (

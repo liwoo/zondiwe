@@ -156,37 +156,52 @@ export const songs: Record<Languages, Song[]> = {
       `,
     },
     {
-      number: 15,
+      number: 149,
       title: "Urukundo rwa Yesu",
       language: "Kinyarwanda",
       lyrics: `
-      1
-      Urukundo rwa Yesu,
-      Rwageze kuri twebwe;
-      Rudukuraho rwose,
-      Urubanza rwo gupfa.
-
+      1Mbeg’ urukundo rw’Imana yacu,
+      Nta Warondor’uko rungana !
+      Rusumb’ukwezi; rusumb’izuba;
+      Kand’ i kuzimu, rugerayo
+      Rwatumye Yes’aza mw’isi yacu,
+      Ngw’indushy’ aturuhure;
+      Na cya Kirara cy’inzererezi,
+      Rwatumye S’acyakira
+      
       Gusubiramo
-      Aradukunda, aradukunda,
-      Aradukunda, Yesu Mutabazi.
+      Mbes’urukundo rw’Imana yacu
+      Rwagereranywa n’iki ?
+      Mw’ijuru n’isi baruririmbe,
+      Kugez’iteka ryose !
 
-      2
-      Abatari bahabwa,
-      Ubugingo bw’ iteka,
-      Twihute tubabwire,
-      Urukundo rwa Yesu.
-
-      3
-      Kuko yaradukunze,
-      Yadupfiriye twese,
-      Natwe dukunde dutyo,
-      Abakiri mu byaha.
-
-      4
-      Aho Yes’ azazira,
-      Aje kwim’ ingoma ye,
-      Ni bwo tuzumv’ ijwi rye,
-      Ati: Mwakoze neza.
+      2Ingoma zose zo mw isi yacu
+      Zijya zihita zishiraho ;
+      Abang’Imana, ntibayisenge,
+      Bazapfa bose, 
+      be KwibukwaNyamar’urwo rukundo 
+      rw’ImanaRutagir’akagero,
+      Urw’idukunda tw’abari mw’isi,
+      Ni rwo rutazashira
+      
+      3Inyanja zose zaba nka Wino,
+      Ijuru rikab’impapuro,
+      Ibyatsi nabyo bakabigira
+      Byos’uducumu tw’abanditsi,
+      Ab’isi bose bakandikaho
+      Iby’urukundo rwayo,
+      Ntibabimara !
+      Ntibyakwirwaho !
+      Hakam’ inyanj’ari yo !
+      
+      4Kand’ ukw ikunda Umwana Wayo,
+      Jye ni kw’inkunda, ntakwiriye
+      Nar’umugome, nukw’ impa Yesu,
+      Ngw’ambambirwe Ku Musaraba
+      Mubo Yacunguj’ayo maraso
+      Nzi yuko nanjye ndimo
+      Nzajya ndirimba Urwo rukundo,
+      Ndukwize mw isi Yose
       `,
     },
   ],

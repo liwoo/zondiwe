@@ -207,6 +207,47 @@ export const songs: Record<Languages, Song[]> = {
   ],
   chewa: [
     {
+      number: 311,
+      title: "Yehova Mbusa Wanga",
+      language: "Chewa",
+      lyrics: `
+1 Yehova, Mbusa wangadi,
+Ndilibe kusowa;
+Andigonetsa bwinoli
+Mumsipu wokoma.
+Cha dzina lakelo.
+
+2 Ku madzi ake odikha
+Anditsogolera;
+Ndi moyo wanga wofoka
+Aulimbikitsa.
+
+3 Anditsogolera m'njira
+Zakulungamazo;
+Chifukwa changaay', koma
+
+4 Ndipyola kodi chikhwawa
+Cha mthunzi wa imfa?
+Ndilibe mantha ngati 'Nu
+Mundiperekeza.
+
+5 Chakudya changa chabwino
+Mwandikonzera pha!
+Pamaso pa adaniwo
+Mudyetse mtimanga.
+
+6 Mwadzoza mutu wanga ndi
+Mafuta okoma,
+Mwadzaza chikho changadi,
+Inde, chisefuka.
+
+7 Zokoma ndi zakuyanja
+Zidzanditsatako;
+Ndikhala m'nyumba ya Mlungu
+Ku nthawi zonsezo.
+      `,
+    },
+    {
       number: 102,
       title: "Tanthwe Longambika",
       language: "Chewa",

@@ -13,6 +13,7 @@ import {
 import { ChevronRight } from "lucide-react";
 import { Languages, Song, songs } from "@/data/songs";
 import Bio from "./Bio";
+import { Program } from "./Program";
 
 const languageFlags: Record<Languages, string> = {
   rwanda: "🇷🇼",
@@ -127,20 +128,7 @@ const ZondiweFuneralWebsite: React.FC = () => {
       case "songsheet":
         return <SongSheet />;
       case "program":
-        return (
-          <Card className="bg-[#FDF8E7] border-2 border-[#D4AF37]">
-            <CardHeader>
-              <CardTitle className="text-[#8B4513] font-serif text-2xl">
-                Order of Service
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-[#5D4037] font-serif">
-                Program content coming soon...
-              </p>
-            </CardContent>
-          </Card>
-        );
+        return <Program />;
       default:
         return null;
     }

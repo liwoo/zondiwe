@@ -25,9 +25,10 @@ export const Program: React.FC = () => (
     <h2 className="text-sm font-bold text-[#8B4513] font-serif text-center opacity-75">
       Kigali Send Off Program for late
     </h2>
-    <h1 className="text-2xl font-bold text-[#8B4513] font-serif mb-6 text-center">
+    <h1 className="text-2xl font-bold text-[#8B4513] font-serif my-2 text-center">
       Zhondi Kwame Phiri
     </h1>
+    <h3 className="text-center text-[#8B4513]">27 September 2024, 06:30PM</h3>
 
     <ProgramItem title="MC" details="Charles" />
     <ProgramItem title="Opening Prayer" details="Wasac Rep" />
